@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Neochat | Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css" />
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body class="fundo">
+    <div class="w3-center">
+       
+        
+        <form class="painel" action="login" , method="POST">
+            
+            <br>
+            <fieldset>
+                <br>
+                <img src="img/logo2.0.png"/>
+                <br>
+                <hr style="height:1px; border:none; color:rgb(255, 255, 255); background-color:rgb(255, 255, 255); margin-top: 0px; margin-bottom: 0px; width: 80%; margin: 0 auto;"/>
+                <br>
+                
+                <div class="campo">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" id="usuario" style="width: 10em" maxlength="10" value="">
+                </div>
+                <div class="campo">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" style="width: 10em" maxlength="12" value="">
+                </div>
+
+                <div class="campo">
+                    <label>
+                        <input type="checkbox" name="termos_de_uso" value="1"> Manter-se conectado
+                    </label>
+                </div>
+
+                <button type="submit" class="botao submit">Login</button>
+                <br>
+                <div class="campo">
+                    <label>
+                        <a href="register.html">Cadastrar-se</a>
+                    </label>
+                </div>               
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

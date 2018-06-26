@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Neochat | Group Alter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css" />
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        
+    <div class="w3-center">
+        <form class="painel l" action="alterarGrupo" , method="POST">
+           
+           
+
+            <fieldset>
+                <div class="campo">
+                    <label for="newgp">Criar um novo Grupo</label>
+                    <input type="text" name="newgp" id="newgp" maxlength="40">
+                </div>
+
+                <button type="submit" class="botao submit">Criar</button>
+                
+            </fieldset>
+        </form>
+
+        <form class="painel l" action="alterarGrupo" , method="POST">
+            <br>
+
+            <fieldset>
+                <div class="campo">
+                    <label for="nomegp">Digite o nome do Grupo</label>
+                    <input type="text" name="nomegp" id="nomegp" maxlength="40">
+                </div>
+            
+            
+                <div class="campo">
+                    <label for="alteredgp">Alterar nome de um Grupo</label>
+                    <input type="text" name="alteredgp" id="alteredgp" maxlength="40">
+                </div>
+                <button type="submit" class="botao submit">Alterar</button>
+                
+            </fieldset>
+        </form>
+
+        <form class="painel l" action="alterarGrupo" , method="POST">
+            <br>
+
+            <fieldset>
+                <div class="campo">
+                    <label for="delgp">Digite o id do grupo a ser deletado</label>
+                    <input type="number" name="delgp" id="delgp" maxlength="4">
+                </div>
+
+                <button type="submit" class="botao submit">Deletar</button>
+                
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <div class="campo">
+            <label>
+                <a href="chat.html">Retornar ao chat</a>
+            </label>
+        </div>               
+    </div>
+</body>
+</html>
